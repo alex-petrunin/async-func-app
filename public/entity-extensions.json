@@ -1,0 +1,12 @@
+{
+  "entityTypeExtensions": [
+    {
+      "entityType": "AppGlobalStorage",
+      "properties": {
+        "lastAsyncResult": { "type": "string" },
+        "lastInvokeResult": { "type": "string" },
+        "lastRuleResult": { "type": "string" }
+      }
+    }
+  ]
+}

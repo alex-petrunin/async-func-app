@@ -5,10 +5,31 @@
   margin: calc(var(--ring-unit) / 2);
 }
 
+.toolbar {
+  display: flex;
+  gap: calc(var(--ring-unit));
+  flex-wrap: wrap;
+}
+
+.panel {
+  border: 1px solid var(--ring-line-color, #ddd);
+  border-radius: 4px;
+  padding: calc(var(--ring-unit));
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--ring-unit) / 2);
+}
+
+.panel-title {
+  font-weight: 600;
+  font-size: 13px;
+}
+
 .status {
   display: flex;
   align-items: center;
   gap: calc(var(--ring-unit));
+  flex-wrap: wrap;
 }
 
 .pill {
@@ -35,7 +56,7 @@
   padding: calc(var(--ring-unit));
   border-radius: 4px;
   font-size: 12px;
-  max-height: 300px;
+  max-height: 240px;
   overflow: auto;
   white-space: pre-wrap;
   word-break: break-word;
@@ -45,4 +66,10 @@
 .err {
   background: #fdecea;
   color: #c0392b;
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--ring-secondary-color, #888);
+  margin: 0;
 }
