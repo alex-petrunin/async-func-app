@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "title": "Async Func App",
+  "description": "",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "",
+    "url": "https://www.jetbrains.com/youtrack/"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "async-func",
+      "name": "Async-Func",
+      "indexPath": "async-func/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "async-func/widget-icon.svg",
+      "description": ""
+    }
+  ]
+}
