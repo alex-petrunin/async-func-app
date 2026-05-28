@@ -50,7 +50,7 @@ export default defineConfig({
       input: {
         // List every widget entry point here
         asyncFunc: resolve(__dirname, 'src/widgets/async-func/index.html'),
-
+        issueAsync: resolve(__dirname, 'src/widgets/issue-async/index.html'),
       }
     }
   }

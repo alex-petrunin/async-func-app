@@ -17,6 +17,14 @@
       "extensionPoint": "MAIN_MENU_ITEM",
       "iconPath": "async-func/widget-icon.svg",
       "description": ""
+    },
+    {
+      "key": "issue-async",
+      "name": "Issue-Async",
+      "indexPath": "issue-async/index.html",
+      "extensionPoint": "ISSUE_BELOW_SUMMARY",
+      "iconPath": "async-func/widget-icon.svg",
+      "description": "Issue-scoped async-functions test"
     }
   ]
 }

@@ -105,6 +105,6 @@ exports.httpHandler = {
                 status: 'ok',
                 source: 'http-handler invokeAsync'
             });
-        },
+        }
     }
 };
