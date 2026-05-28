@@ -51,6 +51,9 @@ export default defineConfig({
         // List every widget entry point here
         asyncFunc: resolve(__dirname, 'src/widgets/async-func/index.html'),
         issueAsync: resolve(__dirname, 'src/widgets/issue-async/index.html'),
+        articleAsync: resolve(__dirname, 'src/widgets/article-async/index.html'),
+        userAsync: resolve(__dirname, 'src/widgets/user-async/index.html'),
+        projectAsync: resolve(__dirname, 'src/widgets/project-async/index.html'),
       }
     }
   }

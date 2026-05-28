@@ -25,6 +25,30 @@
       "extensionPoint": "ISSUE_BELOW_SUMMARY",
       "iconPath": "async-func/widget-icon.svg",
       "description": "Issue-scoped async-functions test"
+    },
+    {
+      "key": "article-async",
+      "name": "Article-Async",
+      "indexPath": "article-async/index.html",
+      "extensionPoint": "ARTICLE_BELOW_SUMMARY",
+      "iconPath": "async-func/widget-icon.svg",
+      "description": "Article-scoped async-functions test"
+    },
+    {
+      "key": "user-async",
+      "name": "User-Async",
+      "indexPath": "user-async/index.html",
+      "extensionPoint": "USER_CARD",
+      "iconPath": "async-func/widget-icon.svg",
+      "description": "User-scoped async-functions test"
+    },
+    {
+      "key": "project-async",
+      "name": "Project-Async",
+      "indexPath": "project-async/index.html",
+      "extensionPoint": "PROJECT_TAB",
+      "iconPath": "async-func/widget-icon.svg",
+      "description": "Project-scoped async-functions test"
     }
   ]
 }
