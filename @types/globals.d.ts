@@ -77,3 +77,10 @@ type YTAppInterface = {
 declare global {
   const YTApp: YTAppInterface;
 }
+
+declare module '@jetbrains/youtrack-scripting-api/apps' {
+  export * from '/Users/aleksandr.petrunin/WebstormProjects/youtrack/youtrack-workflow/src/main/resources/jetbrains/youtrack/workflow/api/apps';
+}
+declare module '@jetbrains/youtrack-scripting-api/ai-tools' {
+  export * from '/Users/aleksandr.petrunin/WebstormProjects/youtrack/youtrack-workflow/src/main/resources/jetbrains/youtrack/workflow/api/ai-tools';
+}

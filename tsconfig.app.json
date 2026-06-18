@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "types": ["@jetbrains/youtrack-workflow-types/scripting-api"],
+
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],

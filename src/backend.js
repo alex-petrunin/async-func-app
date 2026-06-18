@@ -48,6 +48,7 @@ exports.httpHandler = {
             method: 'POST',
             path: 'trigger-invoke',
             handle: function handle(ctx) {
+                ctx.
                 console.log('[async-demo] trigger-invoke endpoint hit');
                 writeResult(ctx, KEY_INVOKE, {status: 'pending', triggeredAt: Date.now()});
 
